@@ -1,43 +1,36 @@
-import memojiAvatar1 from "@/assets/images/memoji-avatar-1.png";
-import memojiAvatar2 from "@/assets/images/memoji-avatar-2.png";
-import memojiAvatar3 from "@/assets/images/memoji-avatar-3.png";
-import memojiAvatar4 from "@/assets/images/memoji-avatar-4.png";
-import memojiAvatar5 from "@/assets/images/memoji-avatar-5.png";
+import sertif1 from "@/assets/images/sertif-bangkit.png";
+import magang1 from "@/assets/images/magang.png";
+import sertif2 from "@/assets/images/sertif-flutter.png";
+import sertif3 from "@/assets/images/sertif-puskesmas.png";
 import { SectionHeader } from "@/components/SectionHeader";
 import Image from "next/image";
 import { Card } from "@/components/Card";
 import { Fragment } from "react";
 
-const testimonials = [
+const certificates = [
   {
-    name: "Ariman Setiawan",
-    position: "CEO @ Rajawali Permata Asia",
-    text: "Fernand was instrumental in transforming our application into a powerful attendance tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
-    avatar: memojiAvatar1,
+    name: "Bangkit Academy",
+    text: "for successfully completing Bangkit with a specialization in Mobile Development. Bangkit is a Google-led academy designed to develop high-caliber technical talent for Indonesia’s leading technology companies and startups.",
+    avatar: sertif1,
+    github: "https://github.com/AnisyaHamidah/agro-vision-main.git",
   },
   {
-    name: "Hafidz Surya Ramadhan",
-    position: "Fullstack Mobile Flutter @ Motasa Indonesia",
-    text: "Working with Fernand was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
-    avatar: memojiAvatar2,
+    name: "KSP-DWIJAYA UTAMA - INTERNSHIP",
+    text: "Developed complete UI/UX mockup designs for the KSP Dwijaya Utama system, transforming operational needs into structured and intuitive interface concepts.",
+    avatar: magang1,
+    figma: "https://www.figma.com/design/BrXOznIK9wN8MgWGw4TsGH/Project-Akhir-Magang?node-id=8-6&t=Gzy1YiL2VVwqAB1L-1",
   },
   {
-    name: "Daniel White",
-    position: "CEO @ InnovateCo",
-    text: "Fernand's ability to create seamless user experiences is unmatched. Our website has seen a significant increase in conversions since launching the new design. We couldn't be happier.",
-    avatar: memojiAvatar3,
+    name: "Project Akhir - Flutter",
+    text: "I finished my final Flutter project during the Dicoding Mobile Development Bootcamp, applying solid Flutter fundamentals to develop a complete and working application.",
+    avatar: sertif2,
+    github: "https://github.com/AnisyaHamidah/project-akhir-flower.git"
   },
   {
-    name: "Emily Carter",
-    position: "Product Manager @ GlobalTech",
-    text: "Fernand is a true frontend wizard. He took our complex product and transformed it into an intuitive and engaging user interface. We're already seeing positive feedback from our customers.",
-    avatar: memojiAvatar4,
-  },
-  {
-    name: "Michael Brown",
-    position: "Director of IT @ MegaCorp",
-    text: "Fernand's work on our website has been nothing short of exceptional. He's a talented developer who is also a great communicator. We highly recommend him.",
-    avatar: memojiAvatar5,
+    name: "Registration Platform-Puskesmas kalijaga",
+    text: "I developed and completed a final project consisting of a registration system and queue management website for Puskesmas Kalijaga, implementing functional features to support real operational needs.",
+    avatar: sertif3,
+    github: "https://github.com/AnisyaHamidah/puskesmas-website.git"
   },
 ];
 
@@ -54,22 +47,18 @@ export const TestimonialsSection = () => {
                 text-white
                 tracking-widest uppercase
                 [text-shadow:0_0_8px_rgba(0,0,0,0.3)]
-                to-white
                 bg-clip-text text-transparent
-                tracking-widest uppercase
               "
             >
-              Happy Clients
+              My Achievements
             </span>
-
           }
-          title={<span className="text-rose-900">What Clients Say about Me</span>}
+          title={<span className="text-rose-900">Certifications & Documentation</span>}
           description={
             <span className="text-rose-900">
-              Real feedback from people I’ve helped build digital products.
+              A collection of official certificates and documentation of projects that I have successfully completed.
             </span>
           }
-
         />
 
         <div
@@ -80,9 +69,9 @@ export const TestimonialsSection = () => {
           <div className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">
             {[...new Array(2)].fill(0).map((_, idx) => (
               <Fragment key={idx}>
-                {testimonials.map((testimonial) => (
+                {certificates.map((cert) => (
                   <Card
-                    key={testimonial.name}
+                    key={cert.name}
                     className="
                       relative
                       max-w-xs md:max-w-md p-6 md:p-8 
@@ -99,26 +88,46 @@ export const TestimonialsSection = () => {
                       before:rounded-t-2xl
                     "
                   >
-                    <div className="flex gap-4 items-center">
-                      <div className="size-14 bg-rose-100 inline-flex justify-center items-center rounded-full flex-shrink-0">
-                        <Image
-                          src={testimonial.avatar}
-                          alt={testimonial.name}
-                          className="max-h-full"
-                        />
-                      </div>
-
-                      <div>
-                        <div className="font-semibold">{testimonial.name}</div>
-                        <div className="text-sm text-gray-600">
-                          {testimonial.position}
-                        </div>
-                      </div>
+                    {/* Gambar Sertifikat */}
+                    <div className="w-full h-36 md:h-44 overflow-hidden rounded-lg border">
+                      <Image
+                        src={cert.avatar}
+                        alt={cert.name}
+                        width={600}
+                        height={400}
+                        className="w-full h-full object-cover"
+                      />
                     </div>
 
-                    <p className="mt-4 md:mt-6 text-sm md:text-base text-gray-800">
-                      {testimonial.text}
+                    {/* Judul Sertifikat */}
+                    <h3 className="mt-4 font-semibold text-lg">
+                      {cert.name}
+                    </h3>
+
+                    {/* Penjelasan Sertifikat */}
+                    <p className="text-sm text-gray-700 mt-2">
+                      {cert.text}
                     </p>
+
+                    {/* Link GitHub (hanya tampil jika ada) */}
+                    {cert.github && (
+                      <a
+                        href={cert.github}
+                        target="_blank"
+                        className="inline-block mt-3 text-sm font-semibold text-rose-700 hover:text-rose-900 underline"
+                      >
+                        View on GitHub →
+                      </a>
+                    )}
+                    {cert.figma && (
+                      <a
+                        href={cert.figma}
+                        target="_blank"
+                        className="inline-block mt-1 text-sm font-semibold text-rose-700 hover:text-rose-900 underline"
+                      >
+                        View on Figma →
+                      </a>
+                    )}
                   </Card>
                 ))}
               </Fragment>
