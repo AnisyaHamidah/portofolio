@@ -173,11 +173,11 @@ const portfolioWebsiteProjects = [
   {
     company: "Sistem Luaran Akademik",
     year: "2023",
-    title: "Sistem Pengelolaan Data Prestasi Akademik",
+    title: "Academic Achievement Data Management System",
     results: [
-      { title: "Mencatat dan Mengelola Data Prestasi Mahasiswa" },
-      { title: "Proses Input Prestasi yang Terstruktur dan Efisien" },
-      { title: "Memudahkan Monitoring dan Rekap Prestasi Akademik" },
+      { title: "Record and Manage Student Achievement Data" },
+      { title: "Structured and Efficient Achievement Input Process" },
+      { title: "Simplify Monitoring and Reporting of Academic Achievements" },
     ],
 
     link: "https://github.com/AnisyaHamidah/sistem-luaran-akademik.git",
