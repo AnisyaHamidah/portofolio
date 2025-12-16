@@ -123,7 +123,7 @@ const portfolioMobileProjects = [
     ],
     link: "https://github.com/AnisyaHamidah/tailor-project.git",
     image: snayzzy,
-    tech: [Dart, Flutter,FlutterRiverpod],
+    tech: [Dart, Flutter, FlutterRiverpod],
   },
   {
     company: "Anisya Hamidah",
@@ -171,16 +171,16 @@ const portfolioWebsiteProjects = [
     tech: [Php, Laravel, Javascript, Bootstrap, Mysql],
   },
   {
-    company: "Luaran Akademik Universitas Catur Insan Cendekia",
-    year: "2025",
-    title: "Platform for Student Academic Work Outputs",
+    company: "Sistem Luaran Akademik",
+    year: "2023",
+    title: "Sistem Pengelolaan Data Prestasi Akademik",
     results: [
-      { title: "Upload. Track. Showcase. Collect. Organize. Achieve" },
-      { title: "Store Certificates and Monitor Student Achievements" },
-      { title: "Your Complete Dashboard for Academic Progress & Reports" },
-      { title: "A Smart Space for Certificates and Student Records" },
+      { title: "Mencatat dan Mengelola Data Prestasi Mahasiswa" },
+      { title: "Proses Input Prestasi yang Terstruktur dan Efisien" },
+      { title: "Memudahkan Monitoring dan Rekap Prestasi Akademik" },
     ],
-    link: "https://www.findfluence.adslink.id/",
+
+    link: "https://github.com/AnisyaHamidah/sistem-luaran-akademik.git",
     image: luaran,
     tech: [Php, Laravel, Javascript, Bootstrap, Mysql],
   },
