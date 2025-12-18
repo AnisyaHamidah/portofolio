@@ -151,7 +151,7 @@ export const HeroSection = () => {
           href="https://www.linkedin.com/in/anisyahamidah/"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 bg-rose-500 text-white h-12 px-6 rounded-xl shadow-md hover:bg-rose-600 transition"
+          className="inline-flex items-center gap-2 bg-[#921A40] text-white h-12 px-6 rounded-xl shadow-md hover:bg-rose-600 transition"
         >
           <span>🖐🏻</span>
           <span className="font-semibold">Let&apos;s Connect</span>

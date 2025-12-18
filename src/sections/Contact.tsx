@@ -5,7 +5,7 @@ export const ContactSection = () => {
   return (
     <div
       id="contact-section"
-      className="bg-[#FFD3D5] from-rose-100 via-rose-50 to-white py-20 lg:py-28"
+      className="bg-[#B97C8B] from-rose-100 via-rose-50 to-white py-20 lg:py-28"
     >
       <div className="container">
         <div className="relative bg-white/80 backdrop-blur-md border border-rose-200 py-10 px-10 rounded-3xl shadow-xl overflow-hidden">
@@ -35,7 +35,7 @@ export const ContactSection = () => {
             <a
               href="https://www.linkedin.com/in/fernand-jerico"
               target="_blank"
-              className="inline-flex items-center px-8 h-12 rounded-xl gap-2 bg-rose-500 hover:bg-rose-600 text-white font-semibold shadow-lg transition"
+              className="inline-flex items-center px-8 h-12 rounded-xl gap-2 bg-[#921A40] hover:bg-rose-600 text-white font-semibold shadow-lg transition"
             >
               Contact Me
               <ArrowRightIcon className="size-5" />

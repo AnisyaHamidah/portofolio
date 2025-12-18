@@ -13,14 +13,10 @@ import GithubIcon from "@/assets/images/github.png";
 import InstagramIcon from "@/assets/images/instagramm.png";
 import LinkedInIcon from "@/assets/images/linkedIn.png";
 import GoogleMaps from "@/assets/icons/google-maps.svg";
-import Javascript from "@/assets/icons/javascript.svg";
 import Laravel from "@/assets/icons/laravel.svg";
 import Mysql from "@/assets/icons/mysql.svg";
 import Php from "@/assets/icons/php.svg";
-import FlutterBloc from "@/assets/icons/bloc.svg";
-import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
 import Kotlin from "@/assets/icons/kotlin.svg";
-import ReactIcon from "@/assets/icons/react.svg";
 import myPhoto from "@/assets/images/Anisya-hamidah.png";
 import EmailIcon from "@/assets/images/email.png";
 import { CardHeader } from "@/components/CardHeader";
@@ -32,19 +28,15 @@ import { useRef } from "react";
 const toolboxItems = [
   { title: "Dart", iconType: Dart },
   { title: "Flutter", iconType: Flutter },
-  { title: "Flutter Bloc", iconType: FlutterBloc },
-  { title: "Flutter Riverpod", iconType: FlutterRiverpod },
   { title: "Github", iconType: Github },
   { title: "Bootstrap", iconType: Bootstrap },
-  { title: "CSS3", iconType: CSS3 },
+  { title: "CSS", iconType: CSS3 },
   { title: "PHP", iconType: Php },
   { title: "Laravel", iconType: Laravel },
   { title: "Firebase", iconType: Firebase },
   { title: "Google Maps", iconType: GoogleMaps },
-  { title: "Javascript", iconType: Javascript },
   { title: "Kotlin", iconType: Kotlin },
   { title: "MySQL", iconType: Mysql },
-  { title: "React", iconType: ReactIcon }
 ];
 
   const hobbies = [
@@ -101,7 +93,7 @@ export const AboutSection = () => {
 
   return (
     // tambahkan 'relative' agar bintang bisa absolute terhadap container ini
-    <div className="py-20 lg:py-28 bg-[#F29AAE] relative" id="about-section">
+    <div className="py-20 lg:py-28 bg-[#EAA6B5] relative" id="about-section">
       <div className="container">
 
         {/* BACKGROUND SPARKLES (Opsi 2) */}

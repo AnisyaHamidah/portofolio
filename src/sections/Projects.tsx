@@ -229,7 +229,7 @@ export const ProjectsSection = () => {
 
   return (
     <section
-      className="pb-16 py-32 lg:py-24 sm:py-32 bg-[#F29AAE]"
+      className="pb-16 py-32 lg:py-24 sm:py-32 bg-[#E6A7B5]"
       id="project-section"
     >
       <div className="container">
@@ -324,7 +324,7 @@ export const ProjectsSection = () => {
 
                   {/* BUTTON */}
                   <a href={project.link}>
-                    <button className="bg-rose-500 text-white h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 hover:bg-rose-600 transition">
+                    <button className="bg-[#921A40] text-white h-12 w-full md:w-auto px-6 rounded-xl font-semibold inline-flex items-center justify-center gap-2 mt-8 hover:bg-[#921A40] transition">
                       <span>Visit Live Site</span>
                       <ArrowRightIcon className="size-4" />
                     </button>

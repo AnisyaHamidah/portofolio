@@ -21,7 +21,7 @@ const words = [
 
 export const TapeSection = () => {
   return (
-    <div className="py-16 lg:py-24 overflow-x-clip bg-[#850E35]">
+    <div className="py-16 lg:py-24 overflow-x-clip bg-[#D69AA8]">
       <div className="bg-white overflow-x-clip -rotate-3 -mx-1">
         <div
           className="flex 
