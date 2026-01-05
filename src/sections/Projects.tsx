@@ -2,6 +2,7 @@
 import { useState } from "react";
 import puskesmas from "@/assets/images/puskesmas.png";
 import luaran from "@/assets/images/luaran.png";
+import ramen from "@/assets/images/ramen.png";
 import Landingpage from "@/assets/images/landing-page.png";
 import snayzzy from "@/assets/images/snayzzy-style.png";
 import flower from "@/assets/images/project.png";
@@ -20,6 +21,7 @@ import Firebase from "@/assets/icons/firebase.svg";
 import Figma from "@/assets/icons/Figma1.svg";
 import Javascript from "@/assets/icons/javascript.svg";
 import Laravel from "@/assets/icons/laravel.svg";
+import Tailwind from "@/assets/icons/tailwind.svg";
 import Mysql from "@/assets/icons/mysql.svg";
 import Php from "@/assets/icons/php.svg";
 import FlutterRiverpod from "@/assets/icons/flutter-riverpod.svg";
@@ -33,14 +35,14 @@ import { Card } from "@/components/Card";
 
 const portfolioUIUXProjects = [
   {
-  company: "Landing Page Furnisee",
-  year: "2025",
-  title: "Minimalist Furniture with a Clean and Modern Interface",
-  results: [
-    { title: "Simple and Intuitive UI for Easy Furniture Browsing" },
-    { title: "Modern Layout Showcasing Furniture Details Clearly" },
-    { title: "Smooth User Experience for Exploring and Selecting Products" },
-  ],
+    company: "Landing Page Furnisee",
+    year: "2025",
+    title: "Minimalist Furniture with a Clean and Modern Interface",
+    results: [
+      { title: "Simple and Intuitive UI for Easy Furniture Browsing" },
+      { title: "Modern Layout Showcasing Furniture Details Clearly" },
+      { title: "Smooth User Experience for Exploring and Selecting Products" },
+    ],
     link: "https://www.figma.com/design/6tofsRLoForh7cgL9nkBMn/Untitled?node-id=0-1&t=0sbm3IFghCdt55L7-1",
     image: Landingpage,
     tech: [Figma],
@@ -199,17 +201,30 @@ const portfolioWebsiteProjects = [
     tech: [Php, Laravel, Javascript, Bootstrap, Mysql],
   },
   {
-  company: "Landing Page Furnisee",
-  year: "2025",
-  title: "Modern Furniture Solutions for Everyday Living",
-  results: [
-    { title: "Thoughtfully Designed Furniture for Comfort and Style" },
-    { title: "High-Quality Materials with Functional Craftsmanship" },
-    { title: "Create Beautiful, Practical Spaces for Every Room" },
-  ],
+    company: "Landing Page Furnisee",
+    year: "2025",
+    title: "Modern Furniture Solutions for Everyday Living",
+    results: [
+      { title: "Thoughtfully Designed Furniture for Comfort and Style" },
+      { title: "High-Quality Materials with Functional Craftsmanship" },
+      { title: "Create Beautiful, Practical Spaces for Every Room" },
+    ],
     link: "https://github.com/AnisyaHamidah/Landing-page-furnisee.git",
     image: Landingpage,
     tech: [Php, Laravel, Bootstrap],
+  },
+  {
+    company: "Landing Page Ramen",
+    year: "2025",
+    title: "Authentic Ramen Experience for Everyday Cravings",
+    results: [
+      { title: "Carefully Crafted Ramen with Rich and Flavorful Broth" },
+      { title: "High-Quality Ingredients with Perfectly Balanced Toppings" },
+      { title: "Enjoy a Warm, Comforting Bowl of Ramen Anytime" },
+    ],
+    link: "https://github.com/AnisyaHamidah/Ramenisseu-LandingPage.git",
+    image: ramen,
+    tech: [Php, Laravel, Tailwind],
   },
 ];
 
