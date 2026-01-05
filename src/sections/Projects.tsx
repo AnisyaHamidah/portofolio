@@ -305,7 +305,7 @@ export const ProjectsSection = () => {
                 <span>{project.year}</span>
               </div>
 
-              <div className="lg:grid lg:grid-cols-2 lg:gap-16">
+              <div className="lg:grid lg:grid-cols-2 lg:gap-16 lg:items-start">
                 <div className="lg:pb-16">
                   <h3 className="font-serif text-2xl mt-2 md:mt-5 md:text-4xl text-rose-700">
                     {project.title}
@@ -347,13 +347,19 @@ export const ProjectsSection = () => {
                 </div>
 
                 {/* IMAGE */}
-                <div>
+                <div className="flex justify-center lg:justify-start">
                   <Image
                     src={project.image}
                     alt={project.title}
-                    className="mt-8 lg:mt-0 w-full max-w-none lg:w-[250px] lg:scale-125 lg:-translate-y-10 lg:translate-x-8 drop-shadow-2xl"
-                  />
+                    className="
+                      mt-6 lg:mt-0
+                      w-full
+                      max-w-xs
+                      lg:w-[260px]
+                      drop-shadow-2xl
+                    "/>
                 </div>
+
               </div>
             </Card>
           ))}
