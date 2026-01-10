@@ -14,6 +14,7 @@ import websiteArsip from "@/assets/images/website-arsip.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
+import coffee from "@/assets/images/coffe-shop.png";
 import Bootstrap from "@/assets/icons/bootstrap.svg";
 import Dart from "@/assets/icons/dart.svg";
 import Flutter from "@/assets/icons/flutter.svg";
@@ -191,9 +192,9 @@ const portfolioWebsiteProjects = [
     year: "2023",
     title: "Academic Achievement Data Management System",
     results: [
-      { title: "Record and Manage Student Achievement Data" },
-      { title: "Structured and Efficient Achievement Input Process" },
-      { title: "Simplify Monitoring and Reporting of Academic Achievements" },
+      { title: "Manage student achievement data" },
+      { title: "Structured data input process" },
+      { title: "Simple monitoring and reporting" },
     ],
 
     link: "https://github.com/AnisyaHamidah/sistem-luaran-akademik.git",
@@ -205,9 +206,9 @@ const portfolioWebsiteProjects = [
     year: "2025",
     title: "Modern Furniture Solutions for Everyday Living",
     results: [
-      { title: "Thoughtfully Designed Furniture for Comfort and Style" },
-      { title: "High-Quality Materials with Functional Craftsmanship" },
-      { title: "Create Beautiful, Practical Spaces for Every Room" },
+      { title: "Modern and functional design" },
+      { title: "Quality materials and craftsmanship" },
+      { title: "Practical furniture solutions" },
     ],
     link: "https://github.com/AnisyaHamidah/Landing-page-furnisee.git",
     image: Landingpage,
@@ -216,14 +217,27 @@ const portfolioWebsiteProjects = [
   {
     company: "Landing Page Ramen",
     year: "2025",
-    title: "Authentic Ramen Experience for Everyday Cravings",
+    title: "Authentic Ramen Experience",
     results: [
-      { title: "Carefully Crafted Ramen with Rich and Flavorful Broth" },
-      { title: "High-Quality Ingredients with Perfectly Balanced Toppings" },
-      { title: "Enjoy a Warm, Comforting Bowl of Ramen Anytime" },
+      { title: "Rich and flavorful broth" },
+      { title: "Quality ingredients" },
+      { title: "Comfort food anytime" },
     ],
-    link: "https://github.com/AnisyaHamidah/Landing-page-furnisee.git",
+    link: "https://github.com/AnisyaHamidah/Ramenisseu-LandingPage.git",
     image: ramen,
+    tech: [Php, Laravel, Tailwind],
+  },
+  {
+    company: "Landing Page Coffee Shop",
+    year: "2025",
+    title: "Authentic Coffee for Everyday Moments",
+    results: [
+      { title: "Rich and flavorful brewed coffee" },
+      { title: "High-quality beans and ingredients" },
+      { title: "Warm and comforting coffee experience" },
+    ],
+    link: "https://github.com/AnisyaHamidah/coffe-shop.git",
+    image: coffee,
     tech: [Php, Laravel, Tailwind],
   },
 ];
