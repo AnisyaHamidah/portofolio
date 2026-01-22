@@ -11,6 +11,7 @@ import caffesaApp from "@/assets/images/cafffesa.png";
 import debthelper from "@/assets/images/debt-helper.png";
 import meatMingle from "@/assets/images/meatMingle.png";
 import websiteArsip from "@/assets/images/website-arsip.png";
+import healthCare from "@/assets/images/healthCare.png";
 import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -124,6 +125,19 @@ const portfolioUIUXProjects = [
     ],
     link: "https://www.figma.com/design/BrXOznIK9wN8MgWGw4TsGH/Project-Akhir-Magang?node-id=8-6&t=Gzy1YiL2VVwqAB1L-1",
     image: websiteArsip,
+    tech: [Figma],
+  },
+  {
+    company: "Anisya Hamidah",
+    year: "2026",
+    title: "Health Care - UI",
+    results: [
+      { title: "Secure. Organize. Access Medical Data Easily." },
+      { title: "A Smart Healthcare System for Managing Patient Records" },
+      { title: "Reliable Digital Health Information Management Solution" },
+    ],
+    link: "https://www.figma.com/design/AM2wYAzoMff1pIBsbWHWl2/Healtcare?node-id=4212-1879&t=qrW8WpFPWspeNo4N-1",
+    image: healthCare,
     tech: [Figma],
   },
 ];
